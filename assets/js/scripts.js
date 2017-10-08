@@ -222,7 +222,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     (function () {
     
-    /* Vimeo API: http://developer.vimeo.com/player/js-api */
+    /* Vimeo API: http://developer.vimeo.com/player/js-api 
     
         var iframe = document.getElementById('nofocusvideo');
          $f == Froogaloop
@@ -234,7 +234,7 @@ jQuery(function ($) {
 
         $('.modal').on('shown.bs.modal', function () {
         player.api('play');
-        })
+        }) */
     }());
 
 
