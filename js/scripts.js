@@ -14,10 +14,10 @@ window.onload = function () {
     Particles.init({
         // normal options
         selector: '.background',
-        maxParticles: 200,
+        maxParticles: 170,
         connectParticles: true,
         color: '#FDFEFE',
-        speed:2    
+        speed: 2.25    
     });
 
 };
