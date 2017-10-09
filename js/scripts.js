@@ -17,8 +17,7 @@ window.onload = function () {
         maxParticles: 200,
         connectParticles: true,
         color: '#FDFEFE',
-        
-
+        speed:2    
     });
 
 };
