@@ -27,7 +27,7 @@ window.onload = function () {
     $('html').removeClass('no-js');
 
     // Animate to section when nav is clicked
-    $('header a').click(function (e) {
+    $('header1 a').click(function (e) {
 
         // Treat as normal link if no-scroll class
         if ($(this).hasClass('no-scroll')) return;
@@ -41,8 +41,8 @@ window.onload = function () {
         }, Math.abs(window.pageYOffset - $(heading).offset().top) / 1);
 
         // Hide the menu once clicked if mobile
-        if ($('header').hasClass('active')) {
-            $('header, body').removeClass('active');
+        if ($('header1').hasClass('active')) {
+            $('header1, body').removeClass('active');
         }
     });
 
@@ -89,12 +89,12 @@ window.onload = function () {
 
     // Open mobile menu
     $('#mobile-menu-open').click(function () {
-        $('header, body').addClass('active');
+        $('header1, body').addClass('active');
     });
 
     // Close mobile menu
     $('#mobile-menu-close').click(function () {
-        $('header, body').removeClass('active');
+        $('header1, body').removeClass('active');
     });
 
     // Load additional projects
